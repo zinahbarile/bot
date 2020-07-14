@@ -83,7 +83,7 @@ bot.action('no-scam', ctx =>{
     })
 })
 bot.action('BTC-scam', ctx =>{
-    let priceMessage = `Let's take you through the process of recovering your Bit Coin Cryptocurrency. \n\nPlease talk with one of our agents @Customer_Serv`;
+    let priceMessage = `Let's take you through the process of recovering your Bit Coin Cryptocurrency. \n\nPlease talk with one of our agents @Cesarion2`;
 
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage, {
@@ -97,7 +97,7 @@ bot.action('BTC-scam', ctx =>{
     })
 })
 bot.action('BINARY-scam', ctx =>{
-    let priceMessage = `Let's take you through the process of recovering your funds lost via Binary Investment. \n\nPlease talk with one of our agents @Customer_Serv`;
+    let priceMessage = `Let's take you through the process of recovering your funds lost via Binary Investment. \n\nPlease talk with one of our agents @Cesarion2`;
 
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage, {
@@ -112,7 +112,7 @@ bot.action('BINARY-scam', ctx =>{
 })
 
 bot.action('ETH-scam', ctx =>{
-    let priceMessage = `Let's take you through the process of recovering your Ethereum Cryptocurrency. \n\nPlease talk with one of our agents @Customer_Serv`;
+    let priceMessage = `Let's take you through the process of recovering your Ethereum Cryptocurrency. \n\nPlease talk with one of our agents @Cesarion2`;
 
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage, {
@@ -128,7 +128,7 @@ bot.action('ETH-scam', ctx =>{
 
 
 bot.action('FOREX-scam', ctx =>{
-    let priceMessage = `Let's take you through the process of recovering funds lost via Forex Trading. \n\nPlease talk with one of our agents @Customer_Serv`;
+    let priceMessage = `Let's take you through the process of recovering funds lost via Forex Trading. \n\nPlease talk with one of our agents @Cesarion2`;
 
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage, {
